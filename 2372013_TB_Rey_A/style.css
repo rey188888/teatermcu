@@ -1,0 +1,108 @@
+/*2372013 Rey Immanuel Kelas A*/
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+#toggleDark {
+  cursor: pointer;
+  padding-left: 20px;
+}
+
+.title_genre {
+  margin-left: 20px;
+  color: white;
+}
+
+.myBG {
+  height: 100vh;
+  background: url("./images/bg/teater.webp");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: scroll;
+  background-size: cover;
+  text-align: center;
+}
+
+.title_home {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  text-shadow: 2px 2px black;
+  letter-spacing: 2px;
+  text-align: center;
+  color: white;
+}
+
+.trending {
+  height: auto;
+  background: url("./images/bg/player.webp");
+  background-size: cover;
+}
+
+.superhero {
+  height: auto;
+  background: url("./images/bg/betmen.webp");
+  background-size: cover;
+}
+
+.anime {
+  height: auto;
+  background: url("./images/bg/cartoon.webp");
+  background-size: cover;
+}
+
+.drakor {
+  height: auto;
+  background: url("./images/bg/korea.webp");
+  background-size: cover;
+}
+
+.movieImage {
+  margin-top: 10vh;
+  margin-left: 10vh;
+  width: 200px;
+  height: 200px;
+}
+
+#tren1 {
+  height: 200px;
+  width: 200px;
+}
+
+footer {
+  background-color: white;
+  padding: 20px;
+}
+
+.genreButton {
+  width: 200px;
+}
+
+.videowrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+  /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
